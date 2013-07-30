@@ -1,0 +1,10 @@
+build/
+dist/
+pylognorm.egg-info/
+.coverage
+*.pyc
+.tox
+nosetests.xml
+*~
+*.c
+*.so
