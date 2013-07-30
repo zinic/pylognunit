@@ -13,4 +13,4 @@ pip install -r tools/test-requires
 
 ## Writing a Test
 
-(See me)[https://github.com/zinic/pylognunit/blob/master/tests/unit_test.py]
+[See me](https://github.com/zinic/pylognunit/blob/master/tests/unit_test.py)
