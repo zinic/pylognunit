@@ -9,6 +9,12 @@ nosetests.
 
 ### Setting up pylognunit
 
+Please note, this project makes use of [liblognorm](http://www.liblognorm.com/)
+and the python bindings to it named [pylognorm](https://github.com/zinic/pylognorm).
+In order to successfully use this framework for testing log normalization
+rules, you must satisfy the c-library dependencies listed on the [pylognorm](https://github.com/zinic/pylognorm)
+README.
+
 ```bash
 pip install -r tools/pip-requires
 pip install -r tools/test-requires
