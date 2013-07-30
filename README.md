@@ -13,7 +13,8 @@ Please note, this project makes use of [liblognorm](http://www.liblognorm.com/)
 and its python bindings [pylognorm](https://github.com/zinic/pylognorm).
 In order to successfully use this framework for testing log normalization
 rules, you must satisfy the c-library dependencies listed on the [pylognorm](https://github.com/zinic/pylognorm)
-README.
+README. This project will work with earlier varions of liblognorm (< 0.3.7)
+however, some features will not be available.
 
 ```bash
 pip install -r tools/pip-requires
