@@ -14,12 +14,17 @@ pip install -r tools/pip-requires
 pip install -r tools/test-requires
 ```
 
-## Writing a Test
+## Writing a Rule
 
 Writing a test first requires the user to first add the rule they wish to
 test under the [rules directory](https://github.com/zinic/pylognunit/tree/master/rules).
-The rule may be added to an existing rules file or it may be added in a
-rules file all its own. The testing framework will attempt to load both.
+Rules must follow the
+[liblognorm log samples syntax](http://www.liblognorm.com/files/manual/sampledatabase.htm).
+
+A rule may be added to an existing rules file or it may be added in a rules
+file all its own. The testing framework will attempt to load both.
+
+## Writing a Test
 
 After the rule is written, a [unit test](https://github.com/zinic/pylognunit/blob/master/tests/unit_test.py)
 for it may be created. This unit test may be added to an existing suite of
