@@ -1,4 +1,5 @@
-# pylognunit - The pylognorm rule testing framework
+# pylognunit
+### The pylognorm rule testing framework
 
 This project is a very simple wrapper to make testing liblognorm rules
 easier.
